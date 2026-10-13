@@ -1,0 +1,19 @@
+# Private drafts (not published)
+lecture_plan.md
+
+# Python / venv
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Local outputs
+experiments/*/outputs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
