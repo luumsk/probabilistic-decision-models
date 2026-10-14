@@ -13,7 +13,7 @@ dependencies = [
 
 [project.optional-dependencies]
 notebooks = ["jupyterlab"]
-providers = ["openai", "httpx", "python-dotenv"]
+providers = ["httpx", "python-dotenv", "typesafe-sdk"]
 dev = ["pytest"]
 
 [build-system]

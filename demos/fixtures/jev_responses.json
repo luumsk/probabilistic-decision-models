@@ -1,0 +1,44 @@
+{
+  "A": {
+    "route": {
+      "choice": "billing",
+      "probabilities": {
+        "billing": 0.96,
+        "technical": 0.01,
+        "account": 0.02,
+        "other": 0.01
+      },
+      "confidence": 0.94
+    },
+    "urgent": {"noul": 0.62},
+    "refund_eligible": {"noul": 0.97}
+  },
+  "B": {
+    "route": {
+      "choice": "technical",
+      "probabilities": {
+        "billing": 0.01,
+        "technical": 0.95,
+        "account": 0.02,
+        "other": 0.02
+      },
+      "confidence": 0.93
+    },
+    "urgent": {"noul": 0.91},
+    "refund_eligible": {"noul": 0.02}
+  },
+  "C": {
+    "route": {
+      "choice": "account",
+      "probabilities": {
+        "billing": 0.08,
+        "technical": 0.04,
+        "account": 0.63,
+        "other": 0.25
+      },
+      "confidence": 0.63
+    },
+    "urgent": {"noul": 0.28},
+    "refund_eligible": {"noul": 0.01}
+  }
+}
